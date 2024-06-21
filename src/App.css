@@ -1,0 +1,108 @@
+.app {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 50px;
+  align-items: center;
+}
+
+
+.task-form {
+  width: 600px;
+  background-color: #f0f8ff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.task-form input,
+.task-form textarea {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 80%;
+  max-width: 400px;
+}
+
+.task-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task-list {
+  width: 600px;
+}
+
+.task {
+  background-color: white;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.task .status {
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-left: -450px;
+}
+
+.task .status.completed {
+  background-color: green;
+  color: white;
+}
+
+.task .status.pending {
+  background-color: orange;
+  color: white;
+}
+
+.task-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-img {
+  width: 50px;
+  height: 50px;
+
+}
+
+.task-footer button {
+  margin-top: -250px;
+  padding: 5px 10px;
+  margin-left: 10px;
+  /* background-color: #007bff;
+  color: white; */
+  border-radius: 5px;
+  cursor: pointer;
+}
+.left{
+text-align: left;
+margin-top: 20px;
+}
+.editButton{
+  background-color: #f0f8ff;
+  color: blue;
+  border: 2px solid blue;
+}
+.deleteButton{
+  background-color: #f0f8ff;
+  color: red;
+  border: 2px solid red;
+}
+.para{
+  text-wrap: wrap;
+  align-items: flex-start;
+}
+.tag{
+  margin-left: -50px;
+}
